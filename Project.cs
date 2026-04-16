@@ -75,7 +75,7 @@ class Program
 
         do
         {
-            Console.WriteLine("\n=== STORE MENU ===");
+            Console.WriteLine("\n=== DERICK'S STORE MENU ===");
             foreach (Product p in store)
             {
                 p.DisplayProduct();
@@ -164,7 +164,6 @@ class Program
         double finalTotal = grandTotal - discount;
         Console.WriteLine($"Final Total: ₱{finalTotal}");
 
-        // UPDATED STOCK
         Console.WriteLine("\n=== UPDATED STOCK ===");
         foreach (Product p in store)
         {
